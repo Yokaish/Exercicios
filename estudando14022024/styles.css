@@ -5,8 +5,24 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-color: grey;
+}
+
+.container {
+    background-color: rgb(158, 158, 158);
+    border: 2px solid #000000';
+}
+
+.content-input {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .pop-up {
@@ -22,10 +38,19 @@ body {
     z-index: 9999;
 }
 
+.pop-up-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .result-div {
     background-color: black; 
     height: 30px;
     width: 500px;
+    margin: 10px;
 }
 
 
